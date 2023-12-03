@@ -79,6 +79,7 @@ namespace Tyuiu.DudkovIE.Sprint6.Task1.V20
             this.TextBox_StartStep_DIE.Name = "TextBox_StartStep_DIE";
             this.TextBox_StartStep_DIE.Size = new System.Drawing.Size(112, 20);
             this.TextBox_StartStep_DIE.TabIndex = 3;
+            this.TextBox_StartStep_DIE.Text = "-5";
             // 
             // TextBox_EndStep_DIE
             // 
