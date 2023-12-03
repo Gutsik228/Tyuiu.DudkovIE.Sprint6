@@ -20,8 +20,8 @@ namespace Tyuiu.DudkovIE.Sprint6.Task1.V20.Lib
                 if((Math.Cos(x) - 2 * x) == 0)
                 {
                     arr[count] = 0;
-                    continue;
                     count++;
+                    continue;
                 }
                 else
                 {
