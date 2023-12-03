@@ -126,6 +126,7 @@ namespace Tyuiu.DudkovIE.Sprint6.Task0.V30
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(481, 324);
             this.Controls.Add(this.Button_Done_DIE);
             this.Controls.Add(this.TextBox_Result_DIE);
@@ -137,6 +138,7 @@ namespace Tyuiu.DudkovIE.Sprint6.Task0.V30
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TextBox_VarX_DIE);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0| Вариант 30 | Дудков И.Е.  ";
