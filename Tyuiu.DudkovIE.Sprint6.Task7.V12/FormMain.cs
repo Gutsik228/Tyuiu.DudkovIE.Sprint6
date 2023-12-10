@@ -142,5 +142,11 @@ namespace Tyuiu.DudkovIE.Sprint6.Task7.V12
                 DataGridView_Ouput_DIE.Columns[i].Width = 25;
             }
         }
+
+        private void Button_Help_DIE_Click(object sender, EventArgs e)
+        {
+            FormAbout formAbout = new FormAbout();
+            formAbout.ShowDialog();
+        }
     }
 }

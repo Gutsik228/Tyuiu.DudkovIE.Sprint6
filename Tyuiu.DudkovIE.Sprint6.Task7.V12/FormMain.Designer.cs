@@ -144,6 +144,7 @@ namespace Tyuiu.DudkovIE.Sprint6.Task7.V12
             this.Button_Help_DIE.Size = new System.Drawing.Size(59, 48);
             this.Button_Help_DIE.TabIndex = 4;
             this.Button_Help_DIE.UseVisualStyleBackColor = true;
+            this.Button_Help_DIE.Click += new System.EventHandler(this.Button_Help_DIE_Click);
             // 
             // Button_SaveFile_DIE
             // 
